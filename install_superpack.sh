@@ -8,7 +8,7 @@ BRANCH='master'
 
 if [ -z "$VIRTUAL_ENV" ]; then
     # Standard Python env
-    PYTHON=/usr/bin/python
+    PYTHON='which python'
     SUDO=${SUDO}
 else
     # Virtualenv
